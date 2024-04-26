@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "RotateAlbum/1.0.0": {
+        "runtime": {
+          "RotateAlbum.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "RotateAlbum/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

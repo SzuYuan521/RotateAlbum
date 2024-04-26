@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>動態旋轉相簿</title>
+    <style>
+        body {
+            background-color: #ffc0cb;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+
+        #btn {
+            background-image: url('/img/7.jpg');
+            width: 100px;
+            height: 100px;
+            background-size: cover;
+            cursor: pointer;
+            border: none;
+            outline: none;
+        }
+
+        #album {
+            display: none;
+        }
+    </style>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+    <div class="container" id="album">
+        <div class="cube">
+            <div class="side front"></div>
+            <div class="side back"></div>
+            <div class="side right"></div>
+            <div class="side left"></div>
+            <div class="side top"></div>
+            <div class="side bottom"></div>
+        </div>
+    </div>
+
+    <button id="btn" onclick="playMusic()"></button>
+
+    <!-- 添加背景音樂 -->
+    <audio id="bgmusic" src="/music/SPYxFAMILY-OP.mp3" loop style="display: none;"></audio>
+
+    <script src="/js/javaScript.js"></script>
+</body>
+</html>
